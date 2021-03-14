@@ -1,8 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"encoding/base64"
+	"fmt"
 )
 
-fmt.Println(base64.)
+func main() {
+	fmt.Println(base64.StdEncoding.EncodeToString([]byte("user:pass")))
+}
